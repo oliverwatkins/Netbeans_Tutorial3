@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Install: com/mycompany/app/core/login/module/Installer.class
+OpenIDE-Module-Localizing-Bundle: com/mycompany/app/core/login/module/Bundle.properties

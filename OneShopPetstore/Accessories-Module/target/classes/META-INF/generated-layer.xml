@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="TarifTopComponent.settings">
+                <!--com.mycompany.app.bvg.tarif.module.TarifTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="com.mycompany.app.bvg.tarif.module.TarifTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="output">
+                <file name="TarifTopComponent.wstcref">
+                    <!--com.mycompany.app.bvg.tarif.module.TarifTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TarifTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="com-mycompany-app-bvg-tarif-module-TarifTopComponent.instance">
+                <!--com.mycompany.app.bvg.tarif.module.TarifTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="com.mycompany.app.bvg.tarif.module.TarifTopComponent"/>
+                <attr name="preferredID" stringvalue="TarifTopComponent"/>
+                <attr
+                    bundlevalue="com.mycompany.app.bvg.tarif.module.Bundle#CTL_TarifAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="com-mycompany-app-bvg-tarif-module-TarifTopComponent.shadow">
+                <!--com.mycompany.app.bvg.tarif.module.TarifTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/com-mycompany-app-bvg-tarif-module-TarifTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="com_mycompany_app_bvg_tarif_module">
+                <file name="Tarif" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--com.mycompany.app.bvg.tarif.module.TarifTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//com.mycompany.app.bvg.tarif.module//Tarif//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="com">
+                <folder name="mycompany">
+                    <folder name="app">
+                        <folder name="bvg">
+                            <folder name="tarif">
+                                <folder name="module">
+                                    <file name="TarifTopComponent">
+                                    <!--com.mycompany.app.bvg.tarif.module.TarifTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//com_mycompany_app_bvg_tarif_module/Tarif.instance"/>
+                                    </file>
+                                </folder>
+                            </folder>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="com_mycompany_app_bvg_tarif_module">
+                <file name="Tarif.instance">
+                    <!--com.mycompany.app.bvg.tarif.module.TarifTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="com.mycompany.app.bvg.tarif.module.TarifTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="com.mycompany.app.bvg.tarif.module.TarifTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

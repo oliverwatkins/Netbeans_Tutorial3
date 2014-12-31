@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.mycompany.App.BVG.Tarif.Module">
+    <module_version install_time="1386237684415" last="true" origin="installer" specification_version="1.0">
+        <file crc="1856287381" name="config/Modules/com-mycompany-App-BVG-Tarif-Module.xml"/>
+        <file crc="968787195" name="modules/com-mycompany-App-BVG-Tarif-Module.jar"/>
+    </module_version>
+</module>
